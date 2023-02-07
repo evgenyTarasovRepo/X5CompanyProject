@@ -1,0 +1,17 @@
+{
+  "base": {
+    "project": "DemoQaProject",
+    "environment": "qa.guru_practice",
+    "comment": "testing telegram bot @evgeny_tarasov",
+    "reportLink": "",
+    "language": "en",
+    "messenger": "telegram",
+    "allureFolder": "allure-report/",
+    "enableChart": true
+  },
+  "telegram": {
+    "token": "6015644674:AAEcioa0CavMaXq9oH9ehAtC8bXlzwFMZrQ",
+    "chat": "-1001654657122",
+    "replyTo": ""
+  }
+}
