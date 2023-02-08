@@ -44,3 +44,6 @@ __*Ссылка на*__ [отчёт](https://jenkins.autotests.cloud/job/eataras
 __Общаая информация:__
 ![Allure_report_overview](https://user-images.githubusercontent.com/33193991/217624029-481594d0-24dc-47a5-8a7f-482c2149c04b.png)
 
+__Тестовые сценарии:__
+![Allure_test_cases](https://user-images.githubusercontent.com/33193991/217624244-9ddfd446-4655-4065-b8f5-1f7728aae2c3.png)
+
