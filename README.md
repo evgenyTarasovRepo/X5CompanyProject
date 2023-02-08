@@ -12,6 +12,11 @@
 * [Selenoid video](https://github.com/evgenyTarasovRepo/X5CompanyProject/blob/master/README.md#%D0%B7%D0%B0%D0%BF%D1%83%D1%81%D0%BA-%D1%82%D0%B5%D1%81%D1%82%D0%B0-%D0%B2-selenoid)
 
 
+## Используемые технологии:
+![Allure](https://user-images.githubusercontent.com/33193991/217640028-7139b1e9-5962-426f-aae0-c84133bd3f3e.svg)
+
+
+
 ## Реализованные проверки:
 - *Проверка главной страницы*
 - *Проверка страницы "Компания"*
