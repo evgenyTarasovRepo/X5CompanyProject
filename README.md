@@ -14,6 +14,8 @@
 
 ## Используемые технологии:
 ![Github](https://user-images.githubusercontent.com/33193991/217645174-5c7f82cf-039b-46a2-b920-278e51d6235d.svg)
+![Allure](https://user-images.githubusercontent.com/33193991/217647882-5bf3780b-c1f8-496e-addd-735d9ec71fbf.svg)
+
 
 
 
