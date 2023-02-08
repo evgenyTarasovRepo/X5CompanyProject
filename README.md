@@ -60,3 +60,11 @@ __Примеры запусков:__
 
 
 ## Jira
+__Пример интеграции:__
+![jira](https://user-images.githubusercontent.com/33193991/217626087-ed6356fc-4da0-4cca-947f-63103a0f4350.png)
+
+## Telegram Bot:
+![bot_result](https://user-images.githubusercontent.com/33193991/217626265-9222ab40-c73a-4d7f-9869-a9827fc2a05b.png)
+
+## Запуск теста в Selenoid:
+
