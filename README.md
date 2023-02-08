@@ -19,9 +19,9 @@
 ![Gradle](https://user-images.githubusercontent.com/33193991/217648002-9c051805-7a81-4991-911f-ce89a4674837.svg)
 ![Idea](https://user-images.githubusercontent.com/33193991/217648101-c28e341f-dd5d-4490-9e39-7a111681a9e2.svg)
 ![Java](https://user-images.githubusercontent.com/33193991/217648120-50753b8e-795e-4561-b5d7-aa526fea731a.svg)
-![Jira](https://user-images.githubusercontent.com/33193991/217648456-e2a5697a-4d43-4c15-885c-fa5703bed28a.svg)
-
-
+![Junit5](https://user-images.githubusercontent.com/33193991/217648526-c4c86690-5699-4185-a3dc-a536de26ed9f.svg)
+![Selenide](https://user-images.githubusercontent.com/33193991/217648542-bfcc5969-da60-4d1f-b7cb-1e8e9968362b.svg)
+![Selenoid](https://user-images.githubusercontent.com/33193991/217648556-42e03766-0619-4d86-84f4-8c2d07df6374.svg)
 
 
 ## Реализованные проверки:
