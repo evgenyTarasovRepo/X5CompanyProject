@@ -13,7 +13,8 @@
 
 
 ## Используемые технологии:
-gitHub.svg
+![Github](https://user-images.githubusercontent.com/33193991/217643155-2362534a-8043-4722-a3d0-d2f308aa7a85.svg)
+
 
 
 
