@@ -1,3 +1,6 @@
-## Automation tests fo X5 Retail Group company: https://www.x5.ru
+## Автоматизированные тесты для компании X5 Retail Group:
+https://www.x5.ru
 
-*****************************************************************
+##Содержание:
+
+
