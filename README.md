@@ -24,7 +24,9 @@
 ## Запуск тестов
 
 __*Локально, из терминала:*__
-```gradle clean tests_for_x5```
+```
+gradle clean tests_for_x5
+```
 
 __*Удалённо, из Jenkins:*__
 ```
