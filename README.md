@@ -15,6 +15,6 @@
 - *Проверка поиска*    
 
 ## Сборка в Jenkins
-[](/payload/jenkins_build.png)
+![jenkins_build](https://user-images.githubusercontent.com/33193991/217621473-d93f9080-63b9-4b1b-919e-3f83303e670a.png)
 
 
