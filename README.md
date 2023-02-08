@@ -3,6 +3,8 @@
 ## Содержание:
 * [Инструменты и технологии](Технологии)
 * [Реализованные проверки](Реализованные проверки) 
+* [Сборка в Jenkins](https://github.com/evgenyTarasovRepo/X5CompanyProject/blob/master/README.md#%D1%81%D0%B1%D0%BE%D1%80%D0%BA%D0%B0-%D0%B2-jenkins)
+* [Запуск тестов]()
 
 
 ## Реализованные проверки:
