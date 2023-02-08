@@ -19,7 +19,8 @@
 ![Gradle](https://user-images.githubusercontent.com/33193991/217648002-9c051805-7a81-4991-911f-ce89a4674837.svg)
 ![Idea](https://user-images.githubusercontent.com/33193991/217648101-c28e341f-dd5d-4490-9e39-7a111681a9e2.svg)
 ![Java](https://user-images.githubusercontent.com/33193991/217648120-50753b8e-795e-4561-b5d7-aa526fea731a.svg)
-![Jenkins_logo](https://user-images.githubusercontent.com/33193991/217648162-3025ab31-76ea-4e52-9411-af0b4be91cb0.svg)
+![Jira](https://user-images.githubusercontent.com/33193991/217648456-e2a5697a-4d43-4c15-885c-fa5703bed28a.svg)
+
 
 
 
