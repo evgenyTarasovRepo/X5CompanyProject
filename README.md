@@ -13,7 +13,8 @@
 
 
 ## Используемые технологии:
-![Allure](https://user-images.githubusercontent.com/33193991/217640028-7139b1e9-5962-426f-aae0-c84133bd3f3e.svg)
+![jenkins 6961c807](https://user-images.githubusercontent.com/33193991/217641097-024f99d0-ea39-46b2-84e4-3c28560ad01e.png)
+
 
 
 
