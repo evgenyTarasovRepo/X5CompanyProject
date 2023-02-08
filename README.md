@@ -39,4 +39,8 @@ tests_for_x5
 ```
 
 ## Allure Report
-Ссылка на [отчёт](https://jenkins.autotests.cloud/job/eatarasov_x5project/11/allure/)
+__*Ссылка на*__ [отчёт](https://jenkins.autotests.cloud/job/eatarasov_x5project/11/allure/)
+
+__Общаая информация:__
+![Allure_report_overview](https://user-images.githubusercontent.com/33193991/217624029-481594d0-24dc-47a5-8a7f-482c2149c04b.png)
+
