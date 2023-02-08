@@ -38,3 +38,5 @@ tests_for_x5
 "-DbrowserVersion=${BROWSER_VERSION}"
 ```
 
+## Allure Report
+Ссылка на [отчёт](https://jenkins.autotests.cloud/job/eatarasov_x5project/11/allure/)
