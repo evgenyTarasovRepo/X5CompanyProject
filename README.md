@@ -67,4 +67,6 @@ __Пример интеграции:__
 ![bot_result](https://user-images.githubusercontent.com/33193991/217626265-9222ab40-c73a-4d7f-9869-a9827fc2a05b.png)
 
 ## Запуск теста в Selenoid:
+https://user-images.githubusercontent.com/33193991/217626540-470d1535-de99-4dbd-a084-7ef34d7c1a1c.mp4
+
 
