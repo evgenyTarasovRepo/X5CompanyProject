@@ -15,6 +15,7 @@
 - *Проверка поиска*    
 
 ## Сборка в Jenkins
+[Build](https://jenkins.autotests.cloud/job/eatarasov_x5project/11/)
 ![jenkins_build](https://user-images.githubusercontent.com/33193991/217621473-d93f9080-63b9-4b1b-919e-3f83303e670a.png)
 
 
