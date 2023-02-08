@@ -21,5 +21,18 @@
 *Параметры сборки:*
 ![jenkins_parameters](https://user-images.githubusercontent.com/33193991/217621932-3a303704-eefe-46b2-b330-d82ff8257070.png)
 
+## Запуск тестов
 
+Локально, из терминала:
+```gradle clean tests_for_x5```
+
+Удалённо, из Jenkins:
+```
+clean
+tests_for_x5
+"-Dremote=${REMOTE}"
+"-Dbrowser=${BROWSER}"
+"-DbrowserSize=${BROWSER_SIZE}"
+"-DbrowserVersion=${BROWSER_VERSION}"
+```
 
