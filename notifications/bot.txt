@@ -1,13 +1,5 @@
-username: @allert_task_bot
-token: 6015644674:AAEcioa0CavMaXq9oH9ehAtC8bXlzwFMZrQ
-chan id: -1001654657122
+username:
+token: 
+chan id: 
 
 
-Fetch chat id^
-https://api.telegram.org/bot6015644674:AAEcioa0CavMaXq9oH9ehAtC8bXlzwFMZrQ/getUpdates
-
-
-curl -X POST -H 'Content-Type: application/json' -d '{"chat_id": "-1001654657122", "text": "This is a test from idea", "disable_notification": true}' https://api.telegram.org/bot6015644674:AAEcioa0CavMaXq9oH9ehAtC8bXlzwFMZrQ/sendMessage
-
-
-java "-DconfigFile=notifications/config.json" -jar notifications/allure-notifications-4.2.1.jar
