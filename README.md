@@ -15,6 +15,6 @@
 - *Проверка поиска*    
 
 ## Сборка в Jenkins
-[](payload/jenkins_build.png)
+[](/payload/jenkins_build.png)
 
 
