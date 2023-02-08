@@ -47,3 +47,16 @@ __Общаая информация:__
 __Тестовые сценарии:__
 ![Allure_test_cases](https://user-images.githubusercontent.com/33193991/217624244-9ddfd446-4655-4065-b8f5-1f7728aae2c3.png)
 
+
+## Allure TestOps
+__Общаая информация:__
+![allureTestOps_overview](https://user-images.githubusercontent.com/33193991/217625514-72feb9ff-5777-43b4-9540-233143852590.png)
+
+__Тестовые сценарии:__
+![allureTestOps_tc](https://user-images.githubusercontent.com/33193991/217625551-a80a03df-05eb-4032-a795-8c881524ba37.png)
+
+__Примеры запусков:__
+![launches](https://user-images.githubusercontent.com/33193991/217625597-1db4eff9-5106-4508-b94f-48f81eb55e53.png)
+
+
+## Jira
