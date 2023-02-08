@@ -14,17 +14,7 @@
 
 ## Используемые технологии:
 ![Allure](https://user-images.githubusercontent.com/33193991/217640028-7139b1e9-5962-426f-aae0-c84133bd3f3e.svg)
-![Allure_TO](https://user-images.githubusercontent.com/33193991/217640043-5f16979a-0300-4c3f-aa1e-ce38c1f170bd.svg)
-![GitHub](https://user-images.githubusercontent.com/33193991/217640050-1f255579-1527-4651-8747-220d08995f49.svg)
-![Gradle](https://user-images.githubusercontent.com/33193991/217640059-efd420e3-ad81-479e-8651-0c43191232f1.svg)
-![Idea](https://user-images.githubusercontent.com/33193991/217640075-a679b6c0-752e-46bc-9012-f911e8482aeb.svg)
-![Java](https://user-images.githubusercontent.com/33193991/217640083-8e16e91b-aa7f-4b93-b080-c758ef1ef1c3.svg)
-![Jenkins_logo](https://user-images.githubusercontent.com/33193991/217640095-6b4d1100-9f4a-4218-a738-707da19076b1.svg)
-![Jira](https://user-images.githubusercontent.com/33193991/217640102-57130df9-e3eb-4034-82ca-5f5a350d588f.svg)
-![Junit5](https://user-images.githubusercontent.com/33193991/217640111-7e1ac638-a316-465b-8d20-9807616a1f17.svg)
-![Selenide](https://user-images.githubusercontent.com/33193991/217640117-8dcc884b-4662-4e1d-a9ce-691dd928263d.svg)
-![Selenoid](https://user-images.githubusercontent.com/33193991/217640126-6a8d9d02-9bfe-4de7-b56b-bd280a7dfe4d.svg)
-![Telegram](https://user-images.githubusercontent.com/33193991/217640142-1444f753-116d-4dbc-a1a7-0e1883391439.svg)
+
 
 
 ## Реализованные проверки:
