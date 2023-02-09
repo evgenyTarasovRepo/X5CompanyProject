@@ -1,12 +1,10 @@
 package com.tarasov.x5tests.pages;
 
 import com.tarasov.x5tests.pages.components.Footer;
-import com.tarasov.x5tests.pages.components.HeaderNavigation;
 
 import static com.codeborne.selenide.Selenide.open;
 
 public class MainPage {
-    HeaderNavigation navigation = new HeaderNavigation();
     Footer footer = new Footer();
 
     public MainPage openMainPage() {
@@ -14,17 +12,13 @@ public class MainPage {
         return this;
     }
 
-    public void checkHeaderNavigation(String section) {
-        navigation.openSection(section);
-    }
-
     public MainPage checkPhone(String number) {
-        footer.checkPhoneNumber(number);
+        footer.checkFooterValue(number);
         return this;
     }
 
     public MainPage checkAddress(String address) {
-        footer.checkAddress(address);
+        footer.checkFooterValue(address);
         return this;
     }
 

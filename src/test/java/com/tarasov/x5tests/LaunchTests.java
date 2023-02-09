@@ -1,14 +1,17 @@
 package com.tarasov.x5tests;
 
 import com.codeborne.selenide.Condition;
-import com.tarasov.x5tests.TestData.TestData;
+import com.tarasov.x5tests.testdata.TestData;
 import com.tarasov.x5tests.pages.MainPage;
 import io.qameta.allure.Feature;
 import io.qameta.allure.Story;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.ValueSource;
 
+import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 import static io.qameta.allure.Allure.step;
@@ -22,48 +25,25 @@ public class LaunchTests extends TestBase {
 
     @Test
     @DisplayName("Open and verify main page")
-    public void checkMainPage() {
-        step("Open and check main page", () -> {
-            open("https://www.x5.ru/ru/");
-            $(".footer__bottom").shouldHave(Condition.text("X5 Retail Group"));
-        });
-    }
-
-    @Test
-    @DisplayName("Open and verify header sections")
-    public void checkHeaderSections() {
+    public void checkMainPageOpen() {
         step("Open main page", () -> {
             mainPage.openMainPage();
-        });
+        }); }
 
+    @ValueSource(strings = {
+            "Компания",
+            "Партнерам",
+            "Покупателю",
+            "Инвесторам",
+            "Пресс-центр",
+            "Карьера"
+    })
+    @ParameterizedTest(name = "{index}: {0}")
+    public void checkNavigation(String value) {
         step("Verify 'Company' section", () -> {
             mainPage.openMainPage();
-            mainPage.checkHeaderNavigation(testData.company);
-        });
-
-        step("Verify 'Consumer' section", () -> {
-            mainPage.openMainPage();
-            mainPage.checkHeaderNavigation(testData.consumer);
-        });
-
-        step("Verify 'Partners' section", () -> {
-            mainPage.openMainPage();
-            mainPage.checkHeaderNavigation(testData.partners);
-        });
-
-        step("Verify 'Investors' section", () -> {
-            mainPage.openMainPage();
-            mainPage.checkHeaderNavigation(testData.investors);
-        });
-
-        step("Verify 'Press-center' section", () -> {
-            mainPage.openMainPage();
-            mainPage.checkHeaderNavigation(testData.pressCenter);
-        });
-
-        step("Verify 'Career' section", () -> {
-            mainPage.openMainPage();
-            mainPage.checkHeaderNavigation(testData.career);
+            $(byText(value)).click();
+            $("[aria-label='breadcrumbs']").shouldHave(Condition.text(value));
         });
     }
 

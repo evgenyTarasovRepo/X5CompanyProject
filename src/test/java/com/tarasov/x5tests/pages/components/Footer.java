@@ -10,13 +10,8 @@ import static com.codeborne.selenide.Selenide.*;
 public class Footer {
     SelenideElement footerElement = $(".footer .block");
 
-    public Footer checkPhoneNumber(String number) {
-        footerElement.shouldHave(Condition.text(number));
-        return this;
-    }
-
-    public Footer checkAddress(String address) {
-        footerElement.shouldHave(Condition.text(address));
+    public Footer checkFooterValue(String value) {
+        footerElement.shouldHave(Condition.text(value));
         return this;
     }
 
