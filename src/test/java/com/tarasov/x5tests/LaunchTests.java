@@ -1,7 +1,8 @@
 package com.tarasov.x5tests;
 
 import com.codeborne.selenide.Condition;
-import com.tarasov.x5tests.components.HeaderNavigation;
+import com.tarasov.x5tests.TestData.TestData;
+import com.tarasov.x5tests.pages.MainPage;
 import io.qameta.allure.Feature;
 import io.qameta.allure.Story;
 import org.junit.jupiter.api.DisplayName;
@@ -13,10 +14,11 @@ import static com.codeborne.selenide.Selenide.open;
 import static io.qameta.allure.Allure.step;
 
 @Tag("x5test")
-@Feature("X5 main page header")
-@Story("Navigation test")
+@Feature("X5 web site tests")
+@Story("UI tests")
 public class LaunchTests extends TestBase {
-    HeaderNavigation navigation = new HeaderNavigation();
+    MainPage mainPage = new MainPage();
+    TestData testData = new TestData();
 
     @Test
     @DisplayName("Open and verify main page")
@@ -28,62 +30,73 @@ public class LaunchTests extends TestBase {
     }
 
     @Test
-    @DisplayName("Open and verify 'Company section'")
-    public void checkCompanySections() {
+    @DisplayName("Open and verify header sections")
+    public void checkHeaderSections() {
         step("Open main page", () -> {
-            open("https://www.x5.ru/ru/");
+            mainPage.openMainPage();
         });
 
         step("Verify 'Company' section", () -> {
-            navigation.openCompanySection();
-        });
-    }
-
-    @Test
-    @DisplayName("Open and verify 'Consumer section'")
-    public void checkConsumerSections() {
-        step("Open main page", () -> {
-            open("https://www.x5.ru/ru/");
+            mainPage.openMainPage();
+            mainPage.checkHeaderNavigation(testData.company);
         });
 
         step("Verify 'Consumer' section", () -> {
-            navigation.openConsumerSection();
-        });
-    }
-
-    @Test
-    @DisplayName("Open and verify 'Partners section'")
-    public void checkPartnersSections() {
-        step("Open main page", () -> {
-            open("https://www.x5.ru/ru/");
+            mainPage.openMainPage();
+            mainPage.checkHeaderNavigation(testData.consumer);
         });
 
         step("Verify 'Partners' section", () -> {
-            navigation.openPartnersSection();
+            mainPage.openMainPage();
+            mainPage.checkHeaderNavigation(testData.partners);
         });
-    }
 
-    @Test
-    @DisplayName("Open and verify 'Press-center section'")
-    public void checkPressCenterSections() {
-        step("Open main page", () -> {
-            open("https://www.x5.ru/ru/");
+        step("Verify 'Investors' section", () -> {
+            mainPage.openMainPage();
+            mainPage.checkHeaderNavigation(testData.investors);
         });
 
         step("Verify 'Press-center' section", () -> {
-            navigation.openPressCenterSection();
+            mainPage.openMainPage();
+            mainPage.checkHeaderNavigation(testData.pressCenter);
+        });
+
+        step("Verify 'Career' section", () -> {
+            mainPage.openMainPage();
+            mainPage.checkHeaderNavigation(testData.career);
         });
     }
 
     @Test
-    @DisplayName("Open and verify 'Career section'")
-    public void checkCareerSections() {
-        step("Open main page", () -> {
-            open("https://www.x5.ru/ru/");
-        });
+    @DisplayName("Verify address")
+    public void verifyAddress() {
+        mainPage
+                .openMainPage()
+                .checkAddress(testData.address);
+    }
 
-        step("Verify 'Career' section", () -> {
-            navigation.openCareerSection();
-        });
+    @Test
+    @DisplayName("Verify phone numbers")
+    public void verifyPhoneNumber() {
+        mainPage
+                .openMainPage()
+                .checkPhone(testData.phoneNumber_1)
+                .checkPhone(testData.phoneNumber_2);
+    }
+
+    @Test
+    @DisplayName("Verify X5 VK")
+    public void checkX5Vk() {
+        mainPage
+                .openMainPage()
+                .checkVkPage();
+    }
+
+    @Test
+    @DisplayName("Verify X5 Dzen")
+    public void checkX5Dzen() {
+        mainPage
+                .openMainPage()
+                .checkDzen();
     }
 }
