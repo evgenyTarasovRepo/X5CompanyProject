@@ -39,7 +39,7 @@
 
 ## Сборка в Jenkins
 [Build](https://jenkins.autotests.cloud/job/eatarasov_x5project/11/)
-![jenkins_build](https://user-images.githubusercontent.com/33193991/217621473-d93f9080-63b9-4b1b-919e-3f83303e670a.png)
+![jenkins_build](https://user-images.githubusercontent.com/33193991/217834133-b35d48ca-3f48-42ae-9c6c-300266475ab7.png)
 
 __*Параметры сборки:*__
 ![jenkins_parameters](https://user-images.githubusercontent.com/33193991/217621932-3a303704-eefe-46b2-b330-d82ff8257070.png)
@@ -65,31 +65,34 @@ tests_for_x5
 __*Ссылка на*__ [отчёт](https://jenkins.autotests.cloud/job/eatarasov_x5project/11/allure/)
 
 __Общаая информация:__
-![Allure_report_overview](https://user-images.githubusercontent.com/33193991/217624029-481594d0-24dc-47a5-8a7f-482c2149c04b.png)
+![allure_overview](https://user-images.githubusercontent.com/33193991/217834250-ffb863a9-cb40-4f8a-96bc-19f1c58ab37d.png)
 
 __Тестовые сценарии:__
-![Allure_test_cases](https://user-images.githubusercontent.com/33193991/217624244-9ddfd446-4655-4065-b8f5-1f7728aae2c3.png)
+![allure_tc](https://user-images.githubusercontent.com/33193991/217834298-db4999a6-0f8a-4184-9a0c-6304436a6b9f.png)
 
 
 ## Allure TestOps
 __Общаая информация:__
-![allureTestOps_overview](https://user-images.githubusercontent.com/33193991/217625514-72feb9ff-5777-43b4-9540-233143852590.png)
+![allure_test_ops_overview](https://user-images.githubusercontent.com/33193991/217834341-d31debf4-46c9-4e30-96f0-969e565be57b.png)
 
 __Тестовые сценарии:__
-![allureTestOps_tc](https://user-images.githubusercontent.com/33193991/217625551-a80a03df-05eb-4032-a795-8c881524ba37.png)
+![allure_testOps_tc](https://user-images.githubusercontent.com/33193991/217834371-43a0187e-97e5-4aae-8587-f12def3d5cbc.png)
+
 
 __Примеры запусков:__
-![launches](https://user-images.githubusercontent.com/33193991/217625597-1db4eff9-5106-4508-b94f-48f81eb55e53.png)
-
+![launches](https://user-images.githubusercontent.com/33193991/217834426-7b5f4b0f-28dc-462c-9194-d9bf2c96c835.png)
 
 ## Jira
 __Пример интеграции:__
-![jira](https://user-images.githubusercontent.com/33193991/217626087-ed6356fc-4da0-4cca-947f-63103a0f4350.png)
+![jira](https://user-images.githubusercontent.com/33193991/217834488-7567ee6a-be61-4ca5-acf7-c86dfc5f5a0d.png)
 
 ## Telegram Bot:
-![bot_result](https://user-images.githubusercontent.com/33193991/217626265-9222ab40-c73a-4d7f-9869-a9827fc2a05b.png)
+![bot_result](https://user-images.githubusercontent.com/33193991/217834728-155d573d-3c68-492b-b014-3e7193fa388f.png)
+
 
 ## Запуск теста в Selenoid:
-https://user-images.githubusercontent.com/33193991/217626540-470d1535-de99-4dbd-a084-7ef34d7c1a1c.mp4
+https://user-images.githubusercontent.com/33193991/217834752-dff1494b-7f35-44ea-b631-029fd8dc7e49.mp4
+
+
 
 
