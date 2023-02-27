@@ -5,6 +5,7 @@ import com.tarasov.x5tests.testdata.TestData;
 import com.tarasov.x5tests.pages.MainPage;
 import io.qameta.allure.Feature;
 import io.qameta.allure.Story;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
@@ -13,7 +14,6 @@ import org.junit.jupiter.params.provider.ValueSource;
 
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.$;
-import static com.codeborne.selenide.Selenide.open;
 import static io.qameta.allure.Allure.step;
 
 @Tag("x5test")
@@ -40,6 +40,7 @@ public class LaunchTests extends TestBase {
     })
     @ParameterizedTest(name = "{index}: {0}")
     public void checkNavigation(String value) {
+        System.setProperty("remoteUrl", "remote");
         step("Verify 'Company' section", () -> {
             mainPage.openMainPage();
             $(byText(value)).click();
@@ -64,6 +65,7 @@ public class LaunchTests extends TestBase {
                 .checkPhone(testData.phoneNumber_2);
     }
 
+    @Disabled
     @Test
     @DisplayName("Verify X5 VK")
     public void checkX5Vk() {

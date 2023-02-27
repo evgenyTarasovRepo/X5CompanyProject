@@ -8,23 +8,12 @@ import io.qameta.allure.selenide.AllureSelenide;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
-import org.openqa.selenium.remote.DesiredCapabilities;
 
 public abstract class TestBase {
 
     @BeforeAll
     public static void setUpAll() {
-        Configuration.baseUrl = "https://www.x5.ru/ru/";
-        Configuration.browser = System.getProperty("browser", "chrome");
-        Configuration.browserSize = System.getProperty("browserSize", "1980x1020");
-        Configuration.browserVersion = System.getProperty("browserVersion", "100.0");
-        Configuration.remote = System.getProperty("remote", "https://user1:1234@selenoid.autotests.cloud/wd/hub");
-
-
-        DesiredCapabilities capabilities = new DesiredCapabilities();
-        capabilities.setCapability("enableVNC", true);
-        capabilities.setCapability("enableVideo", true);
-        Configuration.browserCapabilities = capabilities;
+        WebDriverProvider webDriverProvider = new WebDriverProvider();
     }
 
     @BeforeEach
